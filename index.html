@@ -64,70 +64,71 @@
         </button>
         <div class="collapse navbar-collapse justify-content-between py-4 py-lg-0" id="navbarCollapse">
             <div class="navbar-nav ms-auto py-0">
-                <a href="#home" class="nav-item nav-link active">Home</a>
+                <!-- <a href="#home" class="nav-item nav-link active">Home</a> -->
                 
-                <a href="#skill" class="nav-item nav-link">Skills</a>
+                <a href="#skill" class="nav-item nav-link">Skills/Experience</a>
                 
             </div>
             <a href="index.html" class="navbar-brand bg-secondary py-3 px-4 mx-3 d-none d-lg-block">
                 <h1 class="text-primary fw-bold m-0">My Portfolio</h1>
             </a>
             <div class="navbar-nav me-auto py-0">
-                <a href="#project" class="nav-item nav-link">Work Experience</a>
+                <a href="#contact" class="nav-item nav-link">Contact/Projects</a>
                 
-                <a href="#contact" class="nav-item nav-link">Contact</a>
+                <!-- <a href="#contact" class="nav-item nav-link">Contact</a> -->
             </div>
         </div>
     </nav>
     <!-- Navbar End -->
 
 
-    <!-- Header Start -->
-    <div class="container-fluid bg-light my-6 mt-0" id="home">
-        <div class="container">
-            <div class="row g-5 align-items-center">
-                <div class="col-lg-6 py-6 pb-0 pt-lg-0" style="margin-top: 5%;">
-                    <h3 class="text-primary mb-3">I'm</h3>
-                    <h1 class="display-3 mb-3">John Raphael Chavaria</h1>
-                    <h2 class="typed-text-output d-inline"></h2>
-                    <div class="typed-text d-none"> Fresh Graduate, BS in Information Technology, Web Developer, Front End Developer, IT Technician</div>
-                    <div class="d-flex align-items-center pt-5">
-                        <a href="img/UpadateCV2.pdf" class="btn btn-primary py-3 px-4 me-5">Download CV</a>
-                        <button type="button" class="btn-play" data-bs-toggle="modal"
-                            data-src="https://youtu.be/nk0gGkTFwX4" data-bs-target="#videoModal">
-                            <span></span>
-                        </button>
-                        <h5 class="ms-4 mb-0 d-none d-sm-block">About Me</h5>
-                    </div>
+   <!-- Header Start -->
+<div class="container-fluid bg-light my-6 mt-0" id="home">
+    <div class="container">
+        <div class="row g-5 align-items-center">
+            <div class="col-lg-6 py-6 pb-0 pt-lg-0" style="margin-top: 5%;">
+                <h3 class="text-primary mb-3">I'm</h3>
+                <h1 class="display-3 mb-3">John Raphael Chavaria</h1>
+                <h2 class="typed-text-output d-inline"></h2>
+                <div class="typed-text d-none"> BS in Information Technology, Web Developer, Front End Developer, IT Technician</div>
+                <div class="d-flex align-items-center pt-5">
+                    <a href="img/my-resume.pdf" class="btn btn-primary py-3 px-4 me-5">Download CV</a>
+                    <button type="button" class="btn-play" data-bs-toggle="modal"
+                        data-bs-target="#audioModal">
+                        <span></span>
+                    </button>
+                    <h5 class="ms-4 mb-0 d-none d-sm-block">About Me</h5>
                 </div>
-                <div class="col-lg-5" style="margin-left: 60%; margin-top: -27%;">
-                    <img class="img-fluid" src="img/b2.png" alt="" >
-                </div>
+            </div>
+            <div class="col-lg-5" style="margin-left: 60%; margin-top: -27%;">
+                <img class="img-fluid" src="img/b2.png" alt="">
             </div>
         </div>
     </div>
-    <!-- Header End -->
+</div>
+<!-- Header End -->
 
-
-    <!-- Video Modal Start -->
-    <div class="modal modal-video fade" id="videoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content rounded-0">
-                <div class="modal-header">
-                    <h3 class="modal-title" id="exampleModalLabel">Youtube Video</h3>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <!-- 16:9 aspect ratio -->
-                    <div class="ratio ratio-16x9">
-                        <iframe class="embed-responsive-item" src="" id="video" allowfullscreen allowscriptaccess="always"
-                            allow="autoplay"></iframe>
-                    </div>
-                </div>
+<!-- Audio Modal Start -->
+<div class="modal modal-video fade" id="audioModal" tabindex="-1" aria-labelledby="audioModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content rounded-0">
+            <div class="modal-header">
+                <h3 class="modal-title" id="audioModalLabel">Audio Playback</h3>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <!-- Audio Player -->
+                <audio controls autoplay>
+                    <source src="img/About-us.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
             </div>
         </div>
     </div>
-    <!-- Video Modal End -->
+</div>
+<!-- Audio Modal End -->
+
+
 
    
 
@@ -157,7 +158,7 @@
                             </div>
                             <div class="skill mb-4">
                                 <div class="d-flex justify-content-between">
-                                    <h6 class="font-weight-bold">CSS</h6>
+                                    <h6 class="font-weight-bold">CSS/Tailwind CSS</h6>
                                     <h6 class="font-weight-bold">80%</h6>
                                 </div>
                                 <div class="progress">
@@ -173,8 +174,7 @@
                                     <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-md-6">
+
                             <div class="skill mb-4">
                                 <div class="d-flex justify-content-between">
                                     <h6 class="font-weight-bold">PHP</h6>
@@ -184,6 +184,39 @@
                                     <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
                             </div>
+
+                            <div class="skill mb-4">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="font-weight-bold">React JS/Next JS</h6>
+                                    <h6 class="font-weight-bold">70%</h6>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+
+                            <div class="skill mb-4">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="font-weight-bold">Node/Express</h6>
+                                    <h6 class="font-weight-bold">30%</h6>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+
+                            <div class="skill mb-4">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="font-weight-bold">AWS</h6>
+                                    <h6 class="font-weight-bold">30%</h6>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            
                             <div class="skill mb-4">
                                 <div class="d-flex justify-content-between">
                                     <h6 class="font-weight-bold">Microsoft Office Suite</h6>
@@ -258,12 +291,34 @@
                             <div class="row gy-5 gx-4">
                                 <div class="col-sm-6">
                                     <h5>IT Technician Intern</h5>
+                                    <p>As an IT Technician Intern, I acquired extensive knowledge in fundamental troubleshooting techniques, profeciently handling hardware components, effectively diagnosing software-related problems.</p>
                                     <hr class="text-primary my-2">
                                     <p class="text-primary mb-1">2022 - 2023</p>
                                     <h6 class="mb-0">The Lewis College</h6>
                                 </div>
+
+                                <div class="col-sm-6">
+                                    <h5>Associate Front-End Developer</h5>
+                                    <p>At Strastan Solutions Corp, I focus on developing responsive web interfaces for tourism and e-commerce applications. I collaborate with designers and back-end teams to create seamless user experiences, optimize performance, and mentor new developers.</p>
+                                    <hr class="text-primary my-2">
+                                    <p class="text-primary mb-1">2024 - Present</p>
+                                    <h6 class="mb-0">STRASTAN SOLUTIONS CORP</h6>
+                                </div>
+
+                                <div class="col-sm-6">
+                                    <h5>Front-End Development Intern</h5>
+                                    <hr class="text-primary my-2">
+                                    <p class="text-primary mb-1">2023 - 2024</p>
+                                    <h6 class="mb-0">STRASTAN SOLUTIONS CORP</h6>
+                                </div>
+
+                                
+
+                                
                                    
                             </div>
+
+                        
                         </div>
                         <div id="tab-2" class="tab-pane fade show p-0 active">
                             <div class="row gy-5 gx-4">
@@ -311,18 +366,13 @@
 
 
     <!-- Projects Start -->
-    <div class="container-xxl py-6 pt-5" id="project">
+    <!-- <div class="container-xxl py-6 pt-5" id="project">
         <div class="container">
             <div class="row g-5 mb-5 align-items-center wow fadeInUp" data-wow-delay="0.1s">
                 <div class="col-lg-6">
                     <h1 class="display-5 mb-0">Work Experience</h1>
                 </div>
-                <!-- <div class="col-lg-6 text-lg-end">
-                    <ul class="list-inline mx-n3 mb-0" id="portfolio-flters">
-                        <li class="mx-3 active" data-filter="*">WebBased | AppBased</li>
-                        
-                    </ul>
-                </div> -->
+             
             </div>
             <div class="row g-4 portfolio-container wow fadeInUp" data-wow-delay="0.1s">
                 <div class="col-lg-4 col-md-6 portfolio-item first">
@@ -377,7 +427,7 @@
                 
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- Projects End -->
 
 
@@ -392,16 +442,13 @@
         <div class="container py-5">
             <div class="row g-5 mb-5 wow fadeInUp" data-wow-delay="0.1s">
                 <div class="col-lg-6">
-                    <h1 class="display-5 mb-0">Let's Work Together</h1>
+                    <h1 class="display-5 mb-0">Contacts & Projects</h1>
                 </div>
-                <!-- <div class="col-lg-6 text-lg-end">
-                    <a class="btn btn-primary py-3 px-5" href="">Say Hello</a>
-                </div> -->
             </div>
             <div class="row g-5">
                 <div class="col-lg-5 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <p class="mb-2">My address:</p>
-                    <h3 class="fw-bold">Bangate, Barcelona, Sorsogon </h3>
+                    <h3 class="fw-bold">Bangate, Barcelona, Sorsogon</h3>
                     <hr class="w-100">
                     <p class="mb-2">Call me:</p>
                     <h3 class="fw-bold">09958691207</h3>
@@ -414,75 +461,51 @@
                         <a class="btn btn-square btn-primary me-2" href="https://instagram.com/chavariajohnraphael?utm_source=qr&igshid=NGExMmI2YTkyZg%3D%3D"><i class="fab fa-instagram"></i></a>
                         <a class="btn btn-square btn-primary me-2" href="https://www.facebook.com/jraphael.dich/"><i class="fab fa-facebook-f"></i></a>
                         <a class="btn btn-square btn-primary me-2" href="https://www.linkedin.com/in/john-raphael-chavaria-a09ab6257/"><i class="fab fa-linkedin-in"></i></a>
-                        
                     </div>
                 </div>
                 <div class="col-lg-7 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <!-- <p class="mb-4">The contact form is currently inactive. Get a functional and working contact form with Ajax & PHP in a few minutes. Just copy and paste the files, add a little code and you're done. <a href="https://htmlcodex.com/contact-form">Download Now</a>.</p> -->
-
-                    
-
-
-                    
-                        <div class="row g-3">
-                            <div class="col-md-6">
-                                <div class="form-floating">
-                                    <input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required>
-                                    <label for="name">Your Name</label>
+                    <div id="contactCarousel" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <!-- Slide 1 -->
+                            <div class="carousel-item active">
+                                <div class="carousel-overlay">
+                                    <img src="img/indemand-forecasting.jpg" class="d-block w-100 carousel-img" alt="Slide 1">
+                                    <div class="overlay-content">
+                                        <h2 class="overlay-title">Indemand Sales Forecasting App</h2>
+                                        <p class="overlay-description">Develop an Application based In Demand Sales Forecasting app using PHP and MySql, enabling effecient gather data related ton sales transaction, integrates forecasting algorithm and generate report.</p>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="col-md-6">
-                                <div class="form-floating">
-                                    <input type="email" class="form-control" id="email" name="email" placeholder="Your Email" required>
-                                    <label for="email">Your Email</label>
+                            <!-- Slide 2 -->
+                            <div class="carousel-item">
+                                <div class="carousel-overlay">
+                                    <img src="img/DDS.png" class="d-block w-100 carousel-img" alt="Slide 2">
+                                    <div class="overlay-content">
+                                        <h2 class="overlay-title">Diet Diary System</h2>
+                                        <p class="overlay-description">Develop a web based Diet Diary System using PHP and MySql, enabling efficient built-in calendar with time, menu plan and diary note</p>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="col-12">
-                                <div class="form-floating">
-                                    <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject" required>
-                                    <label for="subject">Subject</label>
+                            
+                            <!-- Slide 3 -->
+                            <div class="carousel-item">
+                                <div class="carousel-overlay">
+                                    <img src="img/organic-market-logo.png" class="d-block w-100 carousel-img" alt="Slide 3">
+                                    <div class="overlay-content">
+                                        <h2 class="overlay-title">Organic Market PH</h2>
+                                        <p class="overlay-description">Develop an e-commerce platform based on Organic Market PH using Next JS and Firebase,  offering fresh, organic products with a user-friendly interface and an integrated Chatbot for instant support and personalized recommendations. </p>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="col-12">
-                                <div class="form-floating">
-                                    <textarea class="form-control" placeholder="Leave a message here" id="message" name="message" style="height: 100px" required></textarea>
-                                    <label for="message">Message</label>
-                                </div>
-                            </div>
-                            <div class="col-12">
-                                <button class="btn btn-primary py-3 px-5" type="submit" name="btn-send" onclick="SendMail()">Send Message</button>
                             </div>
                         </div>
-                   
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Contact End -->
-
-
-    <!-- Map Start -->
-    <div class="container-xxl pt-5 px-0 wow fadeInUp" data-wow-delay="0.1s" >
-        <div class="container-xxl pt-5 px-0">
-            <div >
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d62250.98661506683!2d124.11656472333986!3d12.798839396760782!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sph!4v1692287199962!5m2!1sen!2sph" width="1320" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-        </div>
-    </div>
-    <!-- Map End -->
-
-
-    <!-- Copyright Start -->
-    <div class="container-fluid bg-dark text-white py-4">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                        &copy; <a class="border-bottom text-secondary" href="#">My Portfolio</a>
-                    </div>
-                    <div class="col-md-6 text-center text-md-end">
-                        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-                        Created By: <a class="border-bottom text-secondary" href="#">John Raphael Chavaria</a>
-                        
+                        <button class="carousel-control-prev" type="button" data-bs-target="#contactCarousel" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#contactCarousel" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
                     </div>
                 </div>
             </div>
@@ -506,6 +529,49 @@
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
     <script src="lib/isotope/isotope.pkgd.min.js"></script>
     <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <style>
+        /* Style for carousel images */
+        .carousel-img {
+            max-height: 400px;
+            object-fit: cover;
+            border-radius: 8px;
+            position: relative;
+        }
+        
+        /* Overlay styling */
+        .carousel-overlay {
+            position: relative;
+        }
+        
+        .carousel-overlay img {
+            display: block;
+        }
+        
+        .overlay-content {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            color: #fff;
+            background-color: gray; /* Semi-transparent black */
+            padding: 20px;
+            border-radius: 8px;
+            width: 80%;
+        }
+        
+        /* Title and description styles */
+        .overlay-title {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        
+        .overlay-description {
+            font-size: 16px;
+        }
+        </style>
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
